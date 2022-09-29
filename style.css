@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans Mono", monospace;
+}
+.Menu {
+  background-image: url(./Images/pexels-luck-galindo-544268.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+}
+.Tagline {
+  font-size: 48px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: -6px;
+}
+.Menu-Wrapper {
+  width: 80%;
+  margin: auto;
+}
+.Button-Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 128px;
+}
+.Button {
+  display: block;
+  width: 256px;
+  height: 48px;
+  background-color: #a000aa;
+  border: 4px solid #ffffff;
+  border-radius: 48px;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  line-height: 48px;
+  user-select: none;
+  margin-top: 32px;
+  transition: 0.2;
+  margin: 8px;
+}
+.Button:hover {
+  background-color: #aa64aa;
+  border: 4px solid #ffffff;
+  color: #ffffff;
+}
